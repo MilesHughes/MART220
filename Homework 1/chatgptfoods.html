@@ -1,0 +1,59 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Food Dish in p5.js</title>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>  
+</head>  
+<body>  
+  <script>  
+    function setup() {  
+      createCanvas(400, 400);  
+      noLoop();  
+    }  
+
+    function draw() {  
+      background(220);  
+
+      // Plate  
+      fill(240);  
+      stroke(200);  
+      strokeWeight(4);  
+      ellipse(width / 2, height / 2, 300, 300);  
+
+      // Egg white  
+      fill(255);  
+      noStroke();  
+      ellipse(width / 2, height / 2, 150, 100);  
+
+      // Egg yolk  
+      fill(255, 204, 0);  
+      ellipse(width / 2, height / 2, 50, 50);  
+
+      // Garnish - Green leaves  
+      fill(34, 139, 34);  
+      for (let i = 0; i < 5; i++) {  
+        let angle = radians(i * 72);  
+        let x = width / 2 + cos(angle) * 80;  
+        let y = height / 2 + sin(angle) * 80;  
+        ellipse(x, y, 20, 10);  
+      }  
+
+      // Fork  
+      drawFork(300, 200);  
+    }  
+
+    function drawFork(x, y) {  
+      // Fork handle  
+      fill(150);  
+      rect(x, y, 10, 80);  
+
+      // Fork prongs  
+      for (let i = 0; i < 4; i++) {  
+        rect(x + i * 3, y - 20, 2, 20);  
+      }  
+    }  
+  </script>  
+</body>  
+</html>  
