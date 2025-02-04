@@ -1,3 +1,23 @@
+var pep1x = 150;
+var pep1y = 150;
+
+var pep2x = 250;  
+var pep2y = 150;  
+
+var pep3x = 150;  
+var pep3y = 250;  
+
+var pep4x = 250;  
+var pep4y = 250;  
+
+var pep5x = 200;  
+var pep5y = 100;  
+
+var pep6x = 200;  
+var pep6y = 300; 
+
+
+
 function setup() {  
     createCanvas(400, 400);  
 }  
@@ -25,5 +45,33 @@ function draw() {
 
     stroke(0); 
     line(200, 350, 200, 50);   
-    line(350, 200, 50, 200);   
+    line(350, 200, 50, 200);
+}
+function keyPressed() {  
+    if (key === 'd') {  
+        movePepperonisX(5);   
+    }  
+    if (key === 'w') {  
+        movePepperonisY(5); 
+    }  
+}  
+
+function movePepperonisX(amount) {  
+    // Move all pepperonis horizontally  
+    pep1x += amount;  
+    pep2x += amount;  
+    pep3x += amount;  
+    pep4x += amount;  
+    pep5x += amount;  
+    pep6x += amount;  
+}  
+
+function movePepperonisY(amount) {  
+    // Move all pepperonis vertically  
+    pep1y += amount;  
+    pep2y += amount;  
+    pep3y += amount;  
+    pep4y += amount;  
+    pep5y += amount;  
+    pep6y += amount;  
 }  

@@ -1,0 +1,5 @@
+Comparison
+
+
+
+I asked ChatGPT to make a food dish with random moving things and event handling using the keyboard or mouse clicks. I had similar requirements for mine and was curious how it would code differently. The AI used more advanced programming with classes and the this keyword It also made a pizza, which surprised me because I made a pizza too. The AI added a cool feature where clicking inside the pizza spawns a random topping that bounces around, and pressing any key changes the background color. My pizza was simpler, using variables, functions, and controls. The idea for mine was a luck game where you try to line up the pizza pieces as they move randomly, then add pepperonis. The most surprising part was how efficiently the AI was able to code taking probably half the amount of lines I need to make a simpler object. It shows how efficient good coders are able to make things. besides that the AI used several techniques that I have not learned yet but seem like big time savers!
