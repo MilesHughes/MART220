@@ -1,0 +1,3 @@
+Reflection
+
+I created a pizza with pretty simple circles and lines. I didn't draw any utensils or a plate for my pizza. The AI made a more complex meal than me, thinking to include silverware and a plate. Beyond the visual components the AI used more advanced techniques using trigonometry and a separate function for drawing the fork. I just used the draw command to enclose all of my coding. The AI was also more efficient using a faster and more adjustable way of coding for the garnish (looked more like peas to me) while I just wrote where every pepperoni should go. Overall I think the AI did make a better looking and more advanced meal, but kind of a weird choice.
