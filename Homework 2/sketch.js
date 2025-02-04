@@ -20,10 +20,10 @@ var saucex = 200;
 var saucey = 200;  
 
 var cheesex = 200;  
-var cheesey = 200; // Added cheese y-position  
+var cheesey = 200;   
 var cheesespeed = 2;  
 
-var breadx = 200; // Bread position  
+var breadx = 200; 
 var bready = 200;  
 
 function setup() {  
