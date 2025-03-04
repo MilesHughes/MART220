@@ -1,0 +1,9 @@
+assets/idle_01.png
+assets/idle_02.png
+assets/idle_03.png
+assets/idle_04.png
+assets/idle_05.png
+assets/idle_06.png
+assets/idle_07.png
+assets/idle_08.png
+assets/idle_09.png
